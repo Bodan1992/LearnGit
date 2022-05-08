@@ -1,0 +1,12 @@
+summary: "The user cannot log in the site via google account",
+type: "bug",
+component: "authorisation",
+severity: "minor",
+test date: "12.10.2021",
+precondition: "have an account in google",
+description: "The bug is produced while trying to log in the site via google account. The user is sent back to the home page with unsuccessful attempt to log in",
+steps to reproduce: 
+1. go to site google.com;
+2. click on login; 
+3. click authorization",
+actual result": " the button login is disabled"
